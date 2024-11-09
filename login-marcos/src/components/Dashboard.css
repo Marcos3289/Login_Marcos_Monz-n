@@ -1,0 +1,100 @@
+/* src/components/Dashboard.css */
+
+.dashboard-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #f5f7fa;
+    color: #333333;
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard-header {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .dashboard-header h1 {
+    font-size: 2.5rem;
+    color: #007bff;
+  }
+  
+  .dashboard-header p {
+    font-size: 1.2rem;
+    color: #666666;
+  }
+  
+  .dashboard-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: space-between;
+  }
+  
+  .info-card {
+    flex: 1 1 300px;
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    border-left: 4px solid #007bff;
+  }
+  
+  .info-card:hover {
+    transform: translateY(-5px);
+    border-left-color: #ff6f61;
+  }
+  
+  .info-card h2 {
+    font-size: 1.8rem;
+    color: #007bff;
+    margin-bottom: 0.5rem;
+  }
+  
+  .info-card p {
+    color: #555555;
+    line-height: 1.6;
+  }
+  
+  .info-card a {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #ff6f61;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .info-card a:hover {
+    background-color: #007bff;
+  }
+  
+  .dashboard-footer {
+    text-align: center;
+    margin-top: 2rem;
+    color: #666666;
+    font-size: 0.9rem;
+  }
+  
+
+.logout-button {
+    margin-top: 2rem;
+    padding: 0.8rem 1.5rem;
+    background-color: #ff6f61;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .logout-button:hover {
+    background-color: #007bff;
+  }
+  
